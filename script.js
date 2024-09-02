@@ -34,7 +34,7 @@ async function cardshow() {
             pokemon.push(await fetch(url).then(res => res.json()));
             
             }
-            console.log(pokemon)
+            
             await display(pokemon)
             pokemon = []
             i++;
